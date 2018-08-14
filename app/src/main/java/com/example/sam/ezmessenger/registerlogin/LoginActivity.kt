@@ -1,10 +1,10 @@
-package com.example.sam.ezmessenger
+package com.example.sam.ezmessenger.registerlogin
 
 import android.os.Bundle
-import android.os.PersistableBundle
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import android.widget.Toast
+import com.example.sam.ezmessenger.R
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_login.*
 
