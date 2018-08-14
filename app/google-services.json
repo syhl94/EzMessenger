@@ -1,27 +1,27 @@
 {
   "project_info": {
-    "project_number": "170850051801",
-    "firebase_url": "https://ezmessenger-306cd.firebaseio.com",
-    "project_id": "ezmessenger-306cd",
-    "storage_bucket": "ezmessenger-306cd.appspot.com"
+    "project_number": "979127671010",
+    "firebase_url": "https://ez-messenger-778c0.firebaseio.com",
+    "project_id": "ez-messenger-778c0",
+    "storage_bucket": "ez-messenger-778c0.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:170850051801:android:1a926b56eb62352f",
+        "mobilesdk_app_id": "1:979127671010:android:1a926b56eb62352f",
         "android_client_info": {
           "package_name": "com.example.sam.ezmessenger"
         }
       },
       "oauth_client": [
         {
-          "client_id": "170850051801-h0fuhgn1mv2s8d4dao4k9j3jarh9cvd9.apps.googleusercontent.com",
+          "client_id": "979127671010-ufg38rrgdjd1d0moqfba6tnpdeo8549m.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAt9ewo3Plgnw-S_3zlfWGiix6yiMQoQls"
+          "current_key": "AIzaSyDctmzCjBa2JKjxJGPuAxhm8iILRfFKnXQ"
         }
       ],
       "services": {

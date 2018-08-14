@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/holo_green_light"
-    tools:context=".MainActivity">
+    tools:context=".RegisterActivity">
 
     <EditText
         android:id="@+id/username_edittext_register"
@@ -80,8 +80,8 @@
 
     <Button
         android:id="@+id/photo_button_login"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="32dp"
         android:background="@drawable/circular_photo_button"
@@ -92,4 +92,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/photo_imageview_register"
+        app:civ_border_width="4dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toBottomOf="@+id/photo_button_login"
+        app:layout_constraintEnd_toEndOf="@+id/photo_button_login"
+        app:layout_constraintStart_toStartOf="@+id/photo_button_login"
+        app:layout_constraintTop_toTopOf="@+id/photo_button_login" />
 </android.support.constraint.ConstraintLayout>
