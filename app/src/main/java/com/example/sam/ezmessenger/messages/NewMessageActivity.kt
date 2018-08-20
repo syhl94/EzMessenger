@@ -49,7 +49,7 @@ class NewMessageActivity : AppCompatActivity() {
                 p0.children.forEach({
                     Log.d("NewMessage", it.toString())
                     val user = it.getValue(User::class.java)
-                    if (user != null) {
+                    if (user != null && user.uid != LatestMessagesActivity.currentUser?.uid) {
                         adapter.add(UserItem(user))
                     }
                 })

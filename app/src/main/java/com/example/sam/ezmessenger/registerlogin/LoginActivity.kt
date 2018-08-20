@@ -1,10 +1,12 @@
 package com.example.sam.ezmessenger.registerlogin
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import android.widget.Toast
 import com.example.sam.ezmessenger.R
+import com.example.sam.ezmessenger.messages.LatestMessagesActivity
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_login.*
 
@@ -35,6 +37,8 @@ class LoginActivity: AppCompatActivity() {
 
                     // Logged in successfully
                     Log.d("LoginActivity", "User logged in successfully")
+                    val intent = Intent(this, LatestMessagesActivity::class.java)
+                    startActivity(intent)
                 }
                 .addOnFailureListener {
                     Log.d("LoginActivity", "User failed to login: ${it.message}")
