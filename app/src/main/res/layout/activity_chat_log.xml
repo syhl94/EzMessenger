@@ -5,6 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".messages.ChatLogActivity"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
     android:background="@android:color/white">
 
     <EditText

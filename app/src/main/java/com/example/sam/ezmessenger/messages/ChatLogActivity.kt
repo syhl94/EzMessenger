@@ -43,10 +43,10 @@ class ChatLogActivity : AppCompatActivity() {
 //        setupDummyData()
         listenForMessages()
 
-        send_button_chat_log.setOnClickListener({
+        send_button_chat_log.setOnClickListener{
             Log.d(TAG, "Attempt to send message....")
             performSendMessage()
-        })
+        }
     }
 
     private fun listenForMessages() {
@@ -69,8 +69,9 @@ class ChatLogActivity : AppCompatActivity() {
                     } else {
                         adapter.add(ChatToItem(chatMessage.text, toUser!!))
                     }
-                    recyclerview_chat_log.scrollToPosition(adapter.itemCount - 1)
                 }
+
+                recyclerview_chat_log.scrollToPosition(adapter.itemCount - 1)
             }
 
             override fun onCancelled(p0: DatabaseError) {
